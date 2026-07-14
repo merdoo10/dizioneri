@@ -1,0 +1,90 @@
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+.hero {
+  position: relative;
+  height: 380px;
+  padding-top: 90px;
+  background-image: url(foto1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: white;
+  opacity: 0.55;
+  z-index: 0;
+}
+
+button {
+  position: relative;
+  border: 20px;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  animation: fadeIn 5s ease-in-out;
+}
+.tur {
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  animation: fadeIn 6s;
+  font-family: Abel;
+animation: 0ms;
+}
+h2 {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  font-family: Abel;
+  text-align: center;
+  animation: fadeIn 1.5 ease-in-out;
+}
+.giris {
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto 0;
+}
+button::before {
+  color: aliceblue;
+  background-color: aqua;
+}
+button:hover {
+  color: rgb(230, 227, 227);
+  background-color: rgb(64, 148, 182);
+}
+body {
+  margin: 0;
+}
+.container {
+  margin-top: 30px;
+}
+.drama1,
+.drama2,
+.drama3 {
+  font-size: 20px;
+  font-family: Abel;
+}
+.son {
+  text-align: center;
+  font-style: italic;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
