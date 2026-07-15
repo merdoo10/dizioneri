@@ -16,7 +16,7 @@ Warning!!: Each genre page ends with a short note reminding visitors that a paid
 
 Project Structure
 
-series.html (Main landing page - genre selector)
+dizi.html (Main landing page - genre selector)
 drama.html (Drama suggestions)
 komedi.html (Comedy suggestions)
 bk.html (Science Fiction suggestions)
