@@ -18,11 +18,11 @@ Project Structure
 
 series.html (Main landing page - genre selector)
 drama.html (Drama suggestions)
-comedy.html (Comedy suggestions)
+komedi.html (Comedy suggestions)
 bk.html (Science Fiction suggestions)
-fantasy.html (Fantasy suggestions)
-thriller.html (Thriller suggestions)
-crime/detective.html (Crime/Detective suggestions)
+fantastik.html (Fantasy suggestions)
+gerilim.html (Thriller suggestions)
+polisiye.html (Crime/Detective suggestions)
 
 
 
