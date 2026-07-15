@@ -31,6 +31,6 @@ polisiye.html (Crime/Detective suggestions)
 <img width="1901" height="897" alt="dizi1" src="https://github.com/user-attachments/assets/8c7559ce-ffd1-4fdf-bda5-3d8efe2ec401" />
 
 
-series.css (shared stylesheet)
-photo1.jpg (character image)
+dizi.css (shared stylesheet)
+foto1.jpg (character image)
 README.md
